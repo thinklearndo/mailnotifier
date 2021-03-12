@@ -69,7 +69,9 @@ The tilt sensor needs to be able to detect when the mailbox door is closed and o
 
 I placed the end with the legs sticking out down, so that when the door is closed, the tilt switch reads closed. Then when the door is opened, the switch will read open.
 
-After gluing it in place and letting the glue dry, slide the heat shrink tubes over the two wires and then solder the wires to the tilt switch legs. Tt doesn't matter which wire goes to which leg.
+![switch mounted](images/tilt swithc mounted.png)
+
+After gluing it in place and letting the glue dry, slide the heat shrink tubes over the two wires and then solder the wires to the tilt switch legs. It doesn't matter which wire goes to which leg.
 
 Then use a heat gun or blow dryer to shrink the tubing tight over the solder joints on the tilt switch.
 
