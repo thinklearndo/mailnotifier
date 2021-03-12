@@ -41,7 +41,7 @@ void sendAlert() {
     HTTPClient http;
 
     Serial.print("[HTTP] begin...\n");
-    if (http.begin(client, "http://" + serverIp + ":3000/mailshere)) {  // HTTP
+    if (http.begin(client, "http://" + serverIp + ":3000/mailsHere")) {  // HTTP
 
 
       Serial.print("[HTTP] GET...\n");
