@@ -8,11 +8,9 @@ Solder
 
 Nipper or wire cutter to remove excess from pins after soldering items
 
-Super glue for mounting the tilt switch on the mailbox door.
+Super glue for mounting the tilt switch on the mailbox door
 
-Needlenose pliers
-
-Phillips screw driver
+Heat gun or Hair dryer to shrink the heat shrink tubing
 
 3x AA batteries
 
