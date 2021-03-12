@@ -73,7 +73,11 @@ I placed the end with the legs sticking out down, so that when the door is close
 
 After gluing it in place and letting the glue dry, slide the heat shrink tubes over the two wires and then solder the wires to the tilt switch legs. It doesn't matter which wire goes to which leg.
 
+![switch soldered](images/tilt_switch_soldered.jpg)
+
 Then use a heat gun or blow dryer to shrink the tubing tight over the solder joints on the tilt switch.
+
+![switch heatshrinked](images/tilt_switch_heat_shrinked.jpg)
 
 Run the wires back to the spot where the main circuit board will rest. With my vinyl mailbox holder, I stuck it in the vertical post and ran the wires in through the gaps where the horizontal post goes through.
 
