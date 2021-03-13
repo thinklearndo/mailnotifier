@@ -36,25 +36,14 @@ var mailOptions = {
 // and one for closign it
 const minutesToWaitForDoorClosed = 15;
 
-class GarageDoorState {
-  constructor(state, openTime, emailed) {
-    this.state = state;
-    this.openTime = openTime;
-    this.emailed = emailed;
-  }
-  
-}
-
 const hostname = '0.0.0.0';
 const port = 3000;
 
-var lastReceivedTime = moment().subtract(1, 'days').calendar();;
+var lastReceivedTime = moment().subtract(20,"minutes");
 
 const server = http.createServer((req, res) => {
 
   var urlParts = url.parse(req.url, true);
-
-  console.log(urlParts.query);
 
   if(urlParts.pathname === '/mailsHere') {
 
@@ -64,9 +53,9 @@ const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/plain');
     res.end('mail notification received');
     
-    if (lastReceivedTime.diff(moment(), 'minutes') > minutesToWaitForDoorClosed) {
-      lastReceivedTime = moement()
-      
+    if (moment().diff(lastReceivedTime, 'minutes') > minutesToWaitForDoorClosed) {
+      lastReceivedTime = moment()
+
       transporter.sendMail(mailOptions, function(error, info){
         if (error) {
           console.log(error);
