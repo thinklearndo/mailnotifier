@@ -17,8 +17,6 @@ String wifiNetworkPassword = "WIFIPASSWORD"; // wifi password
 
 // end configuration items
 
-
-int switchPin = D2;
 int ht68f001Pin = D3;
 
 void sendAlert() {
@@ -78,8 +76,6 @@ void setup() {
 
   pinMode(ht68f001Pin, OUTPUT);
   digitalWrite(ht68f001Pin, HIGH);
-
-  pinMode(switchPin, INPUT_PULLUP);
 
   Serial.begin(115200);
 
