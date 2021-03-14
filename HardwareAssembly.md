@@ -12,6 +12,8 @@ Super glue for mounting the tilt switch on the mailbox door
 
 Heat gun or Hair dryer to shrink the heat shrink tubing
 
+Needlenose pliers
+
 3x AA batteries
 
 ## Soldering on the voltage regulators
@@ -63,21 +65,41 @@ Upload the program for the NodeMCU according to the [software instructions](http
 
 ## Mailbox mounting
 
-The tilt sensor needs to be able to detect when the mailbox door is closed and opened, otherwise it won't detect the mail being delivered. I used a type of gorilla glue to mount it vertically on the bottom edge of the mailbox door.
+To make the tilt switch easier to mount, trim the legs of the tilt switch.
 
-I placed the end with the legs sticking out down, so that when the door is closed, the tilt switch reads closed. Then when the door is opened, the switch will read open.
+![trimmed switch](images/switch_trimmed.jpg)
 
-![switch mounted](images/tilt_switch_mounted.png)
+Slide on the heat shrink onto each wire and solder on the wires, it doesn't matter which wire goes where.
 
-After gluing it in place and letting the glue dry, slide the heat shrink tubes over the two wires and then solder the wires to the tilt switch legs. It doesn't matter which wire goes to which leg.
+![soldered switch](images/switch_soldered.jpg)
 
-![switch soldered](images/tilt_switch_soldered.jpg)
+Use a heat gun or hair dryer to shrink the heat shrink.
 
-Then use a heat gun or blow dryer to shrink the tubing tight over the solder joints on the tilt switch.
+![heat shrinked switch](images/switch_heatshrinked.jpg)
 
-![switch heatshrinked](images/tilt_switch_heat_shrinked.jpg)
+The tilt sensor needs to be able to detect when the mailbox door is closed and opened, otherwise it won't detect the mail being delivered. I used a type of gorilla glue to mount it mostly vertical on the bottom edge of the inside side of the mailbox door.
+
+The legs need to be down so that the switch reads closed when the door is closed and open when the door is open.
+
+![switch mounted](images/mounted_tilt_switch.png)
+
+Notice the glue that is holding the wires to the door as well. Thats for strain relief, to make sure the legs of the switch don't break from the opening and closing.
+
+What it looks like from the side:
+
+![switch mounted front side](images/mounted_tilt_switch_side_front.jpg)
 
 Run the wires back to the spot where the main circuit board will rest. With my vinyl mailbox holder, I stuck it in the vertical post and ran the wires in through the gaps where the horizontal post goes through.
+
+![running wires front](images/moutned_front_outside.jpg)
+
+![running wires side](images/running_wire_side.jpg)
+
+![running wire into compartment](images/wire_into_compartment.jpg)
+
+I set my circuit board and battery holder in the vertical vinyl post.
+
+![sitting in the compartment](images/compartment.jpg)
 
 Solder in the wires from the tilt switch into the SW1 spot. Once again it doesn't matter which wire goes in which hole.
 
